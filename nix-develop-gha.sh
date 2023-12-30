@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -euo pipefail
+set -xeuo pipefail
 
 # Read the arguments into an array, so they can be added correctly as flags
 IFS=" " read -r -a arguments <<<"${@:-./#default}"
